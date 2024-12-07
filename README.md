@@ -1,6 +1,6 @@
 # Wizard Engine
 
-This is a simple library for creating complx wizards in Vue.js.
+This is a simple library for creating complex wizards in Vue.js.
 
 The core idea is to present components one by one and use `await` to wait for the user's response. This way we can program the logic of wizards with the power of the programming language, like any regular other program. The dialogs are just normal Vue components, so they can be as complex as you want.
 
