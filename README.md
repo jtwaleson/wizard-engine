@@ -23,7 +23,7 @@ const age = await showDialog(AgeInputDialog, {
 if (age >= 18) {
     await showDialog(OkYouCanVoteDialog)
     const candidate = await showDialog(WhoDoYouWantToVoteForDialog, {
-        candidates: ["Left", "Rgit", "Up", "Down"],
+        candidates: ["Left", "Right", "Up", "Down"],
     })
 } else {
     await showDialog(SorryYouCantVoteDialog)
